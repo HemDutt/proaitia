@@ -1,16 +1,56 @@
-# GitHub Pages
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+# Proaitia Website
 
-Hey HemDutt!
+Minimal GitHub Pages website for a genetics-driven predictive medicine startup.
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+## Philosophy
 
-Remember, it's self-paced so feel free to take a break! ☕️
+This site follows two principles:
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/HemDutt/proaitia-github-pages/issues/1)
+- **Edward Tufte-style information design**: high signal, low ornamentation, no decorative UI.
+- **Practical Typography (2024)**: readable measure, restrained hierarchy, and typographic clarity.
 
----
+Tone and structure are intentionally research-oriented: precise, evidence-driven, and concise.
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+## Content Basis
+
+The home page incorporates non-confidential messaging from:
+
+- `Elevator pitch.pptx`
+- `Non-confidential Pitch.docx`
+
+These materials inform the core claims on disease-risk modeling, genetics-supported target success, and potential R&D efficiency gains.
+
+## Site Structure
+
+```
+docs/
+	index.html
+	evidence.html
+	team.html
+	contact.html
+	assets/
+		style.css
+		logo.svg
+		figures/
+			approval-probability.png
+			cost-reduction.png
+README.md
+```
+
+## Technical Notes
+
+- Pure static HTML + CSS
+- No framework dependencies
+- Minimal JavaScript (none required for current pages)
+- GitHub Pages compatible from the `/docs` folder
+
+## Deploy on GitHub Pages
+
+1. Open repository **Settings** → **Pages**.
+2. Under **Build and deployment**, choose **Deploy from a branch**.
+3. Select branch `main` and folder `/docs`.
+4. Save and wait for Pages to publish.
+
+After publishing, the site will be served from the repository’s Pages URL.
 
