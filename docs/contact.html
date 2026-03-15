@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Proaitia — Contact</title>
+  <title>Progenos — Contact</title>
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="brand-row">
-      <img src="assets/logo.svg" alt="Proaitia" class="logo" />
+      <img src="assets/logo.svg" alt="Progenos" class="logo" />
       <nav aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="evidence.html">Evidence</a>
@@ -24,7 +24,7 @@
   <main>
     <section>
       <h2>Email</h2>
-      <p><a href="mailto:ameekbhalla@gmail.com">ameekbhalla@gmail.com</a></p>
+      <p class="lead-cta"><button type="button" class="mail-button" data-email="bhalla.ameek@gmail.com">Email Us</button></p>
     </section>
 
     <section>
@@ -39,7 +39,22 @@
   </main>
 
   <footer>
-    <p>Proaitia · Genetics-driven predictive medicine</p>
+    <p>Progenos · Genetics-driven predictive medicine</p>
   </footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var emailButton = document.querySelector(".mail-button");
+      if (!emailButton) {
+        return;
+      }
+
+      emailButton.addEventListener("click", function () {
+        var email = emailButton.getAttribute("data-email");
+        if (email) {
+          window.location.href = "mailto:" + email;
+        }
+      });
+    });
+  </script>
 </body>
 </html>

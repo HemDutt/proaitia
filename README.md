@@ -1,5 +1,5 @@
 
-# Proaitia Website
+# Progenos Website
 
 Minimal GitHub Pages website for a genetics-driven predictive medicine startup.
 

@@ -108,8 +108,25 @@ h3 {
   font-size: 0.9rem;
 }
 
+.lead-cta .mail-button {
+  display: inline-block;
+  color: #fff;
+  background: var(--accent);
+  text-decoration: none;
+  padding: 0.45rem 0.72rem;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.9rem;
+  border: 0;
+  cursor: pointer;
+}
+
 .lead-cta a:hover,
 .lead-cta a:focus-visible {
+  filter: brightness(0.92);
+}
+
+.lead-cta .mail-button:hover,
+.lead-cta .mail-button:focus-visible {
   filter: brightness(0.92);
 }
 
